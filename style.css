@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 body {
   display: flex;
@@ -16,12 +16,13 @@ body {
   height: 560px;
   border-radius: 50%;
   margin-top: 100px;
+  border: 10px solid silver;
 }
 .box1 {
-  width: 8px;
-  height: 190px;
+  width: 20px;
+  height: 170px;
   position: absolute;
-  top: 90px;
+  top: 110px;
   left: 276px;
   background-color: black;
   border-radius: 10px 10px 5px 5px;
@@ -29,7 +30,7 @@ body {
   transform-origin: bottom center;
 }
 .box2 {
-  width: 8px;
+  width: 20px;
   height: 210px;
   position: absolute;
   top: 70px;
@@ -115,4 +116,15 @@ body {
     position: absolute;
     top: 30px;
     left: 120px;
+}
+.boxx{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 260px;
+    left: 255px;
+    z-index: 99;
+
 }

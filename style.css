@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.boxs {
+  position: relative;
+  background-color: white;
+  width: 560px;
+  height: 560px;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+.box1 {
+  width: 8px;
+  height: 190px;
+  position: absolute;
+  top: 90px;
+  left: 276px;
+  background-color: black;
+  border-radius: 10px 10px 5px 5px;
+  transform: rotateZ(0deg);
+  transform-origin: bottom center;
+}
+.box2 {
+  width: 8px;
+  height: 210px;
+  position: absolute;
+  top: 70px;
+  left: 276px;
+  background-color: rgb(85, 85, 85);
+  z-index: 5;
+  border-radius: 10px 10px 5px 5px;
+  transform: rotateZ(0deg);
+  transform-origin: bottom center;
+}
+.box3 {
+  width: 8px;
+  height: 230px;
+  position: absolute;
+  top: 50px;
+  left: 276px;
+  background-color: rgb(124, 122, 122);
+  z-index: 9;
+  border-radius: 10px 10px 5px 5px;
+  transform: rotateZ(0deg);
+  transform-origin: bottom center;
+}
+.noms{
+    font-size: 64px;
+    font-family: sans-serif;
+}
+.num12{
+    position: absolute;
+    top: 0;
+    left: 245px;
+}
+.num1{
+    position: absolute;
+    top: 30px;
+    left: 390px;
+}
+.num2{
+    position: absolute;
+    top: 125px;
+    left: 485px;
+}
+.num3{
+    position: absolute;
+    top: 246px;
+    right: 5px;
+}
+.num4{
+    position: absolute;
+    top: 370px;
+    left: 480px;
+}
+.num5{
+    position: absolute;
+    top: 455px;
+    left: 390px;
+}
+.num6{
+    position: absolute;
+    left: 261px;
+    bottom: 0px;
+}
+.num7{
+    position: absolute;
+    top: 455px;
+    left: 140px;
+}
+.num8{
+    position: absolute;
+    top: 370px;
+    left: 45px;
+}
+.num9{
+    position: absolute;
+    top: 246px;
+    left: 5px;
+}
+.num10{
+    position: absolute;
+    top: 125px;
+    left: 35px;
+}
+.num11{
+    position: absolute;
+    top: 30px;
+    left: 120px;
+}

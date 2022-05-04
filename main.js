@@ -5,15 +5,15 @@ const secund3 = document.querySelector(".box3");
 
 let d=new Date()
 let second=d.getSeconds()
-let minutes = d.getMinutes();
+let minutes = d.getMinutes()
 let hour = d.getHours();
-
+let m=minutes/10*6
 
 function time(T) {
   if (T == 36100) {
     return 0;
   }
-  secund1.style.transform = `rotateZ(${(hour*30)+T}deg)`;
+  secund1.style.transform = `rotateZ(${(hour*30)+T+m}deg)`;
   return setTimeout(function () {
     time(T + 6);
   }, 300000);
@@ -42,11 +42,11 @@ function time3(T) {
 }
 time3(0);
 
-console.log(second*6);
-console.log(minutes*6);
-console.log(hour*6);
+// console.log(second*6);
+// console.log(minutes*6);
+// console.log(hour*6);
 
-console.log('=======================================');
-console.log(second);
-console.log(minutes);
-console.log(hour);
+// console.log('=======================================');
+// console.log(second);
+// console.log(minutes);
+// console.log(hour);
